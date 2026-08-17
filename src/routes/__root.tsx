@@ -81,11 +81,17 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       {
         name: "description",
         content:
-          "Sankadi Sheri — a heritage pol-inspired Navratri garba celebration in Ahmedabad.",
+          "Sankadi Sheri: a heritage pol-inspired Navratri garba celebration at Alphonso Party Plot, Near Science City Circle, Ahmedabad. Nine nights of garba, dandiya, food and tradition.",
       },
       { name: "author", content: "Sankadi Sheri" },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
+      { property: "og:title", content: "Sankadi Sheri — Navratri in Ahmedabad" },
+      { name: "twitter:title", content: "Sankadi Sheri — Navratri in Ahmedabad" },
+      { property: "og:description", content: "Sankadi Sheri: a heritage pol-inspired Navratri garba celebration at Alphonso Party Plot, Near Science City Circle, Ahmedabad. Nine nights of garba, dandiya, food and tradition." },
+      { name: "twitter:description", content: "Sankadi Sheri: a heritage pol-inspired Navratri garba celebration at Alphonso Party Plot, Near Science City Circle, Ahmedabad. Nine nights of garba, dandiya, food and tradition." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/a1eaaa8e37fa8315220a2f15e8fb201a/id-preview-b9b23624--70f3f342-eda0-4bb2-8c44-28eeaac0de89.lovable.app-1786956364355.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/a1eaaa8e37fa8315220a2f15e8fb201a/id-preview-b9b23624--70f3f342-eda0-4bb2-8c44-28eeaac0de89.lovable.app-1786956364355.png" },
     ],
     links: [
       {

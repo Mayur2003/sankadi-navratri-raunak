@@ -2,7 +2,7 @@ import { Landmark, Flower2, Music4, Users } from "lucide-react";
 import { heritageFeatures } from "@/data/event";
 import { Section, SectionHeading } from "./ui-bits";
 
-const icons = [Landmark, Flower2, Music4, Users];
+const icons = [Landmark, Flower2, Music4, Users] as const;
 
 export function HeritageExperience() {
   return (
@@ -19,7 +19,7 @@ export function HeritageExperience() {
 
       <div className="mt-14 grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
         {heritageFeatures.map((feature, i) => {
-          const Icon = icons[i];
+          const Icon = icons[i % icons.length];
           return (
             <article
               key={feature.no}
